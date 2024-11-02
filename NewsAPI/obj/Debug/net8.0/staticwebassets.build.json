@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "lg4SWlJOav1McsYqATZdYM10IJJ9e4S4Z4wAhoosA8Q=",
+  "Source": "NewsAPI",
+  "BasePath": "_content/NewsAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "NewsAPI\\wwwroot",
+      "Source": "NewsAPI",
+      "ContentRoot": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\",
+      "BasePath": "_content/NewsAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\images\\02351806-1186-491f-9121-1d6044fccd08.jpg",
+      "SourceId": "NewsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\",
+      "BasePath": "_content/NewsAPI",
+      "RelativePath": "images/02351806-1186-491f-9121-1d6044fccd08.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\02351806-1186-491f-9121-1d6044fccd08.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\images\\4d4bcdaf-415b-47b1-8fb4-a45b6ffc9308.jpg",
+      "SourceId": "NewsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\",
+      "BasePath": "_content/NewsAPI",
+      "RelativePath": "images/4d4bcdaf-415b-47b1-8fb4-a45b6ffc9308.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\4d4bcdaf-415b-47b1-8fb4-a45b6ffc9308.jpg"
+    }
+  ]
+}
