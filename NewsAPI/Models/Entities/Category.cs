@@ -10,6 +10,6 @@ namespace NewsAPI.Models.Entities
 
         // Bir kategoriye ait birden çok haber
         public ICollection<News> NewsArticles { get; set; }
-        public ICollection <Carousel> Carousels { get; set; }
+        
     }
 }

@@ -22,41 +22,6 @@ namespace NewsAPI.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("NewsAPI.Models.Entities.Carousel", b =>
-                {
-                    b.Property<Guid>("CarouselId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("CategoryId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Content")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Keywords")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("PublishedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("ShortDescription")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Title")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("CarouselId");
-
-                    b.HasIndex("CategoryId");
-
-                    b.ToTable("CarouselNews");
-                });
-
             modelBuilder.Entity("NewsAPI.Models.Entities.Category", b =>
                 {
                     b.Property<Guid>("CategoryId")
@@ -113,9 +78,6 @@ namespace NewsAPI.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("CarouselId")
-                        .HasColumnType("uniqueidentifier");
-
                     b.Property<string>("ImagePath")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -128,22 +90,9 @@ namespace NewsAPI.Migrations
 
                     b.HasKey("ImageId");
 
-                    b.HasIndex("CarouselId");
-
                     b.HasIndex("NewsId");
 
                     b.ToTable("NewsImages");
-                });
-
-            modelBuilder.Entity("NewsAPI.Models.Entities.Carousel", b =>
-                {
-                    b.HasOne("NewsAPI.Models.Entities.Category", "Category")
-                        .WithMany("Carousels")
-                        .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Category");
                 });
 
             modelBuilder.Entity("NewsAPI.Models.Entities.News", b =>
@@ -159,32 +108,17 @@ namespace NewsAPI.Migrations
 
             modelBuilder.Entity("NewsAPI.Models.Entities.NewsImage", b =>
                 {
-                    b.HasOne("NewsAPI.Models.Entities.Carousel", "Carousel")
-                        .WithMany("Images")
-                        .HasForeignKey("CarouselId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("NewsAPI.Models.Entities.News", "News")
                         .WithMany("Images")
                         .HasForeignKey("NewsId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Carousel");
-
                     b.Navigation("News");
-                });
-
-            modelBuilder.Entity("NewsAPI.Models.Entities.Carousel", b =>
-                {
-                    b.Navigation("Images");
                 });
 
             modelBuilder.Entity("NewsAPI.Models.Entities.Category", b =>
                 {
-                    b.Navigation("Carousels");
-
                     b.Navigation("NewsArticles");
                 });
 

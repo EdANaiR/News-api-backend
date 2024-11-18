@@ -14,8 +14,7 @@ namespace NewsAPI.Models.Entities
         public Guid NewsId { get; set; }
         public News News { get; set; }
 
-        public Guid CarouselId { get; set; }
-        public Carousel Carousel { get; set; }
+        
 
 
     }

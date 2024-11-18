@@ -12,7 +12,7 @@ namespace NewsAPI.Data
         public DbSet<Category> Categories { get; set; } 
         public DbSet<News> News { get; set; }
         public DbSet<NewsImage> NewsImages { get; set; }
-        public DbSet<Carousel> CarouselNews { get; set; }
+       
 
 
 
