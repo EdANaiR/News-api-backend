@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\uploads\\02800fec-d202-4e85-9b71-38f95ff7888f_service2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\02800fec-d202-4e85-9b71-38f95ff7888f_service2.jpg"
+    },
+    {
       "Id": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\uploads\\04cdb5a8-0bd4-4166-af15-f96e5ec1e9ec_b-u-r-c-14.webp",
       "PackagePath": "staticwebassets\\uploads\\04cdb5a8-0bd4-4166-af15-f96e5ec1e9ec_b-u-r-c-14.webp"
     },
@@ -25,6 +29,10 @@
       "PackagePath": "staticwebassets\\uploads\\16122e00-38ed-4924-8eef-aaf6dcbc3810_Kirmizi-Modern-Son-Dakika-Haber-Manseti-Twitter-Gonderisi_20241110_125027_0000-png.webp"
     },
     {
+      "Id": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\uploads\\16f7a340-e220-413f-9167-dc257ca9a86f_mahkum-full-hd-izle-mahkum-4-son-bolum-tek-14646942-4567-amp.jpg.webp",
+      "PackagePath": "staticwebassets\\uploads\\16f7a340-e220-413f-9167-dc257ca9a86f_mahkum-full-hd-izle-mahkum-4-son-bolum-tek-14646942-4567-amp.jpg.webp"
+    },
+    {
       "Id": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\uploads\\245b9b97-4b63-48ee-8962-a713b1c7b4db_WhatsApp Image 2024-10-25 at 8.29.35 PM-i671e5bbb61790-700x394.jpg",
       "PackagePath": "staticwebassets\\uploads\\245b9b97-4b63-48ee-8962-a713b1c7b4db_WhatsApp Image 2024-10-25 at 8.29.35 PM-i671e5bbb61790-700x394.jpg"
     },
@@ -35,6 +43,10 @@
     {
       "Id": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\uploads\\2b7ac384-1260-43ea-a13f-2214f2f0dfa3_download.jpg",
       "PackagePath": "staticwebassets\\uploads\\2b7ac384-1260-43ea-a13f-2214f2f0dfa3_download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\uploads\\2f868114-8acb-46f6-bd94-e10e31cdd5d0_depositphotos_502497008-stock-photo-pupils-raising-hands-class-elementary.webp",
+      "PackagePath": "staticwebassets\\uploads\\2f868114-8acb-46f6-bd94-e10e31cdd5d0_depositphotos_502497008-stock-photo-pupils-raising-hands-class-elementary.webp"
     },
     {
       "Id": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\uploads\\38c79ed5-94fe-43dd-89c6-596adb5e7ae2_download.jpg",
@@ -49,8 +61,16 @@
       "PackagePath": "staticwebassets\\uploads\\4e4bd82d-46a8-4236-9754-790b964e7c03_ahmet-turk-kendisine-destege-gelen-imamoglu-icin-18053255_7.webp"
     },
     {
+      "Id": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\uploads\\5577f861-59b7-4a5b-a06b-f3089c22721c_depositphotos_207645386-stock-photo-rear-view-schoolgirl-raising-hand.webp",
+      "PackagePath": "staticwebassets\\uploads\\5577f861-59b7-4a5b-a06b-f3089c22721c_depositphotos_207645386-stock-photo-rear-view-schoolgirl-raising-hand.webp"
+    },
+    {
       "Id": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\uploads\\5c87c59d-b2e2-496e-9461-fb7a02cf9689_Ekran görüntüsü 2024-10-07 175118.png",
       "PackagePath": "staticwebassets\\uploads\\5c87c59d-b2e2-496e-9461-fb7a02cf9689_Ekran görüntüsü 2024-10-07 175118.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\uploads\\5e12e0ab-cddc-4709-9cbd-0b87ab7708c1_service2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\5e12e0ab-cddc-4709-9cbd-0b87ab7708c1_service2.jpg"
     },
     {
       "Id": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\uploads\\5eb92b25-415c-406f-9221-cbbb94d486e8_download.jpg",
@@ -81,8 +101,24 @@
       "PackagePath": "staticwebassets\\uploads\\7c09a9ea-08fa-4540-a349-45034457fe5d_download.jpg"
     },
     {
+      "Id": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\uploads\\7c4cec5d-50d1-4979-85f4-45464d538be4_depositphotos_26337979-stock-photo-newborn-baby-in-hospital-post.webp",
+      "PackagePath": "staticwebassets\\uploads\\7c4cec5d-50d1-4979-85f4-45464d538be4_depositphotos_26337979-stock-photo-newborn-baby-in-hospital-post.webp"
+    },
+    {
+      "Id": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\uploads\\834af55b-9ff4-405e-a337-5083b7b24568_mahkum-full-hd-izle-mahkum-4-son-bolum-tek-14646942-4567-amp.jpg.webp",
+      "PackagePath": "staticwebassets\\uploads\\834af55b-9ff4-405e-a337-5083b7b24568_mahkum-full-hd-izle-mahkum-4-son-bolum-tek-14646942-4567-amp.jpg.webp"
+    },
+    {
+      "Id": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\uploads\\8f5421e3-2f26-4760-bf5e-858aabfd961b_2024-11-23-stk-09.jpg",
+      "PackagePath": "staticwebassets\\uploads\\8f5421e3-2f26-4760-bf5e-858aabfd961b_2024-11-23-stk-09.jpg"
+    },
+    {
       "Id": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\uploads\\910060ac-eb81-4b2f-989c-04ebad74d1b6_ahmet-turk-kendisine-destege-gelen-imamoglu-icin-18053255_7.webp",
       "PackagePath": "staticwebassets\\uploads\\910060ac-eb81-4b2f-989c-04ebad74d1b6_ahmet-turk-kendisine-destege-gelen-imamoglu-icin-18053255_7.webp"
+    },
+    {
+      "Id": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\uploads\\92fcddfb-bf69-4546-8e6d-bfc7bfe8c4e8_kdrama.webp",
+      "PackagePath": "staticwebassets\\uploads\\92fcddfb-bf69-4546-8e6d-bfc7bfe8c4e8_kdrama.webp"
     },
     {
       "Id": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\uploads\\97ce60e9-5165-455c-9904-63faaec508b6_download.jpg",
@@ -95,6 +131,10 @@
     {
       "Id": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\uploads\\a5d88ad0-58a9-4e9d-a1c8-e2f3b4d05bba_download.jpg",
       "PackagePath": "staticwebassets\\uploads\\a5d88ad0-58a9-4e9d-a1c8-e2f3b4d05bba_download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\uploads\\b0fa7d31-86fb-41ad-99a3-d0e8cdac3cc3_depositphotos_51536723-stock-photo-newborn-baby-right-after-delivery.webp",
+      "PackagePath": "staticwebassets\\uploads\\b0fa7d31-86fb-41ad-99a3-d0e8cdac3cc3_depositphotos_51536723-stock-photo-newborn-baby-right-after-delivery.webp"
     },
     {
       "Id": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\uploads\\ba4ce60e-ffe6-49b1-97a9-6383337ce3b3_ahmet-turk-kendisine-destege-gelen-imamoglu-icin-18053255_7.webp",
@@ -151,6 +191,10 @@
     {
       "Id": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\uploads\\ef94eae7-794b-4a49-a887-81956024b429_images.jpg",
       "PackagePath": "staticwebassets\\uploads\\ef94eae7-794b-4a49-a887-81956024b429_images.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\uploads\\fa905f47-7a6e-430f-9b0a-bd2f2807bc40_2024-11-23-stk.jpg",
+      "PackagePath": "staticwebassets\\uploads\\fa905f47-7a6e-430f-9b0a-bd2f2807bc40_2024-11-23-stk.jpg"
     },
     {
       "Id": "C:\\Users\\pc\\OneDrive\\Masaüstü\\NewsAPI\\NewsAPI\\wwwroot\\uploads\\fde5f299-ac37-42e9-b0d6-7a073453e394_1081696_1920x1080.jpg",
