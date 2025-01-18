@@ -4,20 +4,16 @@ using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Railway port yapýlandýrmasý
-var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
-builder.WebHost.UseUrls($"http://*:{port}");
-
-// CORS yapýlandýrmasý
+// Add services to the container.
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll",
         builder =>
         {
             builder
-            .AllowAnyOrigin()
-            .AllowAnyMethod()
-            .AllowAnyHeader();
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader();
         });
 });
 
@@ -28,35 +24,38 @@ builder.Services.AddControllers()
         options.JsonSerializerOptions.WriteIndented = true;
     });
 
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Veritabaný baðlantýsý için Railway environment variable'ýný kullan
-var connectionString = Environment.GetEnvironmentVariable("DATABASE_URL") ??
-    builder.Configuration.GetConnectionString("DefaultConnection");
-
+// Veritabaný baðlantýsý
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(connectionString));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Web ortamý bilgisi
 builder.Services.AddSingleton<IWebHostEnvironment>(builder.Environment);
 
 var app = builder.Build();
 
-// Swagger her ortamda aktif
-app.UseSwagger();
-app.UseSwaggerUI(c =>
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 {
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "API v1");
-    c.RoutePrefix = string.Empty;
-});
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "API v1");
+        c.RoutePrefix = string.Empty; // Swagger UI kök URL'de çalýþýr (isteðe baðlý)
+    });
+}
 
-// Railway'de uploads klasörü için özel yapýlandýrma
-var uploadsPath = Path.Combine(Directory.GetCurrentDirectory(), "uploads");
+// Uploads dizini oluþturma
+var uploadsPath = Path.Combine(builder.Environment.ContentRootPath, "uploads");
 if (!Directory.Exists(uploadsPath))
 {
     Directory.CreateDirectory(uploadsPath);
 }
 
+// Statik dosyalar
 app.UseStaticFiles();
 app.UseStaticFiles(new StaticFileOptions
 {
@@ -64,14 +63,17 @@ app.UseStaticFiles(new StaticFileOptions
     RequestPath = "/uploads"
 });
 
+// CORS ayarlarý
 app.UseCors("AllowAll");
 
-// HTTPS yönlendirmesini Railway'de devre dýþý býrak
-if (!app.Environment.IsProduction())
-{
-    app.UseHttpsRedirection();
-}
+// HTTPS yönlendirmesi
+app.UseHttpsRedirection();
 
+// Yetkilendirme
 app.UseAuthorization();
+
+// Controller'larý haritalama
 app.MapControllers();
+
+// Uygulama çalýþtýrma
 app.Run();
