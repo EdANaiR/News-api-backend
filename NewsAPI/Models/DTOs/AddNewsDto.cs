@@ -2,15 +2,12 @@
 {
     public class AddNewsDto
     {
-        
-        public string Title { get; set; }
-        public string ShortDescription { get; set; }
-        public string Content { get; set; }
-        public List<string> Keywords { get; set; }
-        public DateTime PublishedDate { get; set; }       
+        public string Title { get; set; } = string.Empty;
+        public string ShortDescription { get; set; } = string.Empty;
+        public string Content { get; set; } = string.Empty;
+        public List<string> Keywords { get; set; } = new List<string>();
+        public DateTime PublishedDate { get; set; } = DateTime.Now;
         public Guid CategoryId { get; set; }
-        public List<IFormFile> Images { get; set; }
-
-
+        public List<IFormFile> Images { get; set; } = new List<IFormFile>();
     }
 }

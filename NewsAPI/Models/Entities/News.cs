@@ -14,7 +14,7 @@ namespace NewsAPI.Models.Entities
 
         public required string Content { get; set; }
 
-        public List<string> Keywords { get; set; }
+        public List<string>? Keywords { get; set; }
 
         public DateTime PublishedDate { get; set; }
 

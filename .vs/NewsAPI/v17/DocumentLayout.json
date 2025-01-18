@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,28 +19,40 @@
       "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\models\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\models\\entities\\newsimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\models\\entities\\newsimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\models\\entities\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\models\\entities\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\models\\dtos\\addnewsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\models\\dtos\\addnewsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\models\\dtos\\newsdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\models\\dtos\\newsdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\models\\dtos\\newssummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\models\\dtos\\newssummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\models\\dtos\\addnewsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\models\\dtos\\addnewsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\models\\entities\\newsimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\models\\entities\\newsimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\newsapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\newsapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\models\\dtos\\addcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,10 +67,6 @@
       "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\migrations\\20241029225548_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\newsapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\newsapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\migrations\\20241102112443_migration2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\migrations\\20241102112443_migration2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -74,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 437,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,27 +86,88 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddNewsDto.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\DTOs\\AddNewsDto.cs",
+              "RelativeDocumentMoniker": "NewsAPI\\Models\\DTOs\\AddNewsDto.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\DTOs\\AddNewsDto.cs",
+              "RelativeToolTip": "NewsAPI\\Models\\DTOs\\AddNewsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T10:43:10.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NewsController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Controllers\\NewsController.cs",
+              "RelativeDocumentMoniker": "NewsAPI\\Controllers\\NewsController.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Controllers\\NewsController.cs",
+              "RelativeToolTip": "NewsAPI\\Controllers\\NewsController.cs",
+              "ViewState": "AQIAAAUBAAAAAAAAAAAAAIkBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T23:04:27.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "NewsAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\appsettings.json",
+              "RelativeToolTip": "NewsAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-29T22:39:29.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Program.cs",
+              "RelativeDocumentMoniker": "NewsAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Program.cs",
+              "RelativeToolTip": "NewsAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T20:25:47.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "NewsAPI\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\WeatherForecast.cs",
+              "RelativeToolTip": "NewsAPI\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T19:41:35.365Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "News.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\Entities\\News.cs",
+              "RelativeDocumentMoniker": "NewsAPI\\Models\\Entities\\News.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\Entities\\News.cs",
+              "RelativeToolTip": "NewsAPI\\Models\\Entities\\News.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAhwBcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T06:48:34.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "NewsAPI\\Models\\Entities\\Category.cs",
               "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\Entities\\Category.cs",
               "RelativeToolTip": "NewsAPI\\Models\\Entities\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T22:29:40.134Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "NewsAPI\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "NewsAPI\\Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAiwDYAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T11:01:53.098Z"
             },
             {
               "$type": "Document",
@@ -112,25 +177,49 @@
               "RelativeDocumentMoniker": "NewsAPI\\Models\\DTOs\\NewsDetailDto.cs",
               "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\DTOs\\NewsDetailDto.cs",
               "RelativeToolTip": "NewsAPI\\Models\\DTOs\\NewsDetailDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-11T17:26:17.515Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Program.cs",
-              "RelativeDocumentMoniker": "NewsAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Program.cs",
-              "RelativeToolTip": "NewsAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAABAAAA",
+              "DocumentIndex": 8,
+              "Title": "NewsSummaryDto.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\DTOs\\NewsSummaryDto.cs",
+              "RelativeDocumentMoniker": "NewsAPI\\Models\\DTOs\\NewsSummaryDto.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\DTOs\\NewsSummaryDto.cs",
+              "RelativeToolTip": "NewsAPI\\Models\\DTOs\\NewsSummaryDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T20:25:47.391Z"
+              "WhenOpened": "2024-11-11T09:12:06.513Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
+              "Title": "NewsImage.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\Entities\\NewsImage.cs",
+              "RelativeDocumentMoniker": "NewsAPI\\Models\\Entities\\NewsImage.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\Entities\\NewsImage.cs",
+              "RelativeToolTip": "NewsAPI\\Models\\Entities\\NewsImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T06:48:36.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "NewsAPI\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "NewsAPI\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAiwDYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T11:01:53.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "NewsAPI\\Properties\\launchSettings.json",
@@ -138,73 +227,23 @@
               "RelativeToolTip": "NewsAPI\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-29T23:04:53.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T23:04:53.657Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "NewsAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\appsettings.json",
-              "RelativeToolTip": "NewsAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-29T22:39:29.632Z",
-              "EditorCaption": ""
+              "DocumentIndex": 10,
+              "Title": "NewsAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\NewsAPI.csproj",
+              "RelativeDocumentMoniker": "NewsAPI\\NewsAPI.csproj",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\NewsAPI.csproj",
+              "RelativeToolTip": "NewsAPI\\NewsAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-29T21:23:53.864Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NewsController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Controllers\\NewsController.cs",
-              "RelativeDocumentMoniker": "NewsAPI\\Controllers\\NewsController.cs",
-              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Controllers\\NewsController.cs",
-              "RelativeToolTip": "NewsAPI\\Controllers\\NewsController.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAIwDAAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T23:04:27.907Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NewsImage.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\Entities\\NewsImage.cs",
-              "RelativeDocumentMoniker": "NewsAPI\\Models\\Entities\\NewsImage.cs",
-              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\Entities\\NewsImage.cs",
-              "RelativeToolTip": "NewsAPI\\Models\\Entities\\NewsImage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T06:48:36.927Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "News.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\Entities\\News.cs",
-              "RelativeDocumentMoniker": "NewsAPI\\Models\\Entities\\News.cs",
-              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\Entities\\News.cs",
-              "RelativeToolTip": "NewsAPI\\Models\\Entities\\News.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T06:48:34.973Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "NewsSummaryDto.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\DTOs\\NewsSummaryDto.cs",
-              "RelativeDocumentMoniker": "NewsAPI\\Models\\DTOs\\NewsSummaryDto.cs",
-              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\DTOs\\NewsSummaryDto.cs",
-              "RelativeToolTip": "NewsAPI\\Models\\DTOs\\NewsSummaryDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T09:12:06.513Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "AddCategoryDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\DTOs\\AddCategoryDto.cs",
               "RelativeDocumentMoniker": "NewsAPI\\Models\\DTOs\\AddCategoryDto.cs",
@@ -216,19 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AddNewsDto.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\DTOs\\AddNewsDto.cs",
-              "RelativeDocumentMoniker": "NewsAPI\\Models\\DTOs\\AddNewsDto.cs",
-              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\DTOs\\AddNewsDto.cs",
-              "RelativeToolTip": "NewsAPI\\Models\\DTOs\\AddNewsDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T10:43:10.546Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "NewsAPI\\Data\\AppDbContext.cs",
@@ -240,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "20241102112443_migration2.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Migrations\\20241102112443_migration2.cs",
               "RelativeDocumentMoniker": "NewsAPI\\Migrations\\20241102112443_migration2.cs",
@@ -252,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "20241029225548_initial migration.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Migrations\\20241029225548_initial migration.cs",
               "RelativeDocumentMoniker": "NewsAPI\\Migrations\\20241029225548_initial migration.cs",
@@ -261,18 +288,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T22:55:49.334Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "NewsAPI.csproj",
-              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\NewsAPI.csproj",
-              "RelativeDocumentMoniker": "NewsAPI\\NewsAPI.csproj",
-              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\NewsAPI.csproj",
-              "RelativeToolTip": "NewsAPI\\NewsAPI.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-29T21:23:53.864Z"
             }
           ]
         }

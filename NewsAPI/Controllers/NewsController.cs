@@ -136,7 +136,7 @@ namespace NewsAPI.Controllers
 
             if (addNewsDto.Images != null && addNewsDto.Images.Any())
             {
-                foreach (var image in addNewsDto.Images)
+                foreach (var image in addNewsDto.Images ?? Enumerable.Empty<IFormFile>())
                 {
                     var imagePath = await SaveImage(image);
                     existingNews.Images.Add(new NewsImage

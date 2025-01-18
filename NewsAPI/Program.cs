@@ -4,8 +4,11 @@ using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Railway port yapýlandýrmasý
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+builder.WebHost.UseUrls($"http://*:{port}");
 
+// CORS yapýlandýrmasý
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll",
@@ -18,7 +21,6 @@ builder.Services.AddCors(options =>
         });
 });
 
-
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
@@ -26,30 +28,36 @@ builder.Services.AddControllers()
         options.JsonSerializerOptions.WriteIndented = true;
     });
 
-
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Veritabaný baðlantýsý için Railway environment variable'ýný kullan
+var connectionString = Environment.GetEnvironmentVariable("DATABASE_URL") ??
+    builder.Configuration.GetConnectionString("DefaultConnection");
+
 builder.Services.AddDbContext<AppDbContext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(connectionString));
 
 builder.Services.AddSingleton<IWebHostEnvironment>(builder.Environment);
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+// Swagger her ortamda aktif
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-app.UseStaticFiles();
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "API v1");
+    c.RoutePrefix = string.Empty;
+});
 
-var uploadsPath = Path.Combine(builder.Environment.ContentRootPath, "uploads");
+// Railway'de uploads klasörü için özel yapýlandýrma
+var uploadsPath = Path.Combine(Directory.GetCurrentDirectory(), "uploads");
 if (!Directory.Exists(uploadsPath))
 {
     Directory.CreateDirectory(uploadsPath);
 }
+
+app.UseStaticFiles();
 app.UseStaticFiles(new StaticFileOptions
 {
     FileProvider = new PhysicalFileProvider(uploadsPath),
@@ -58,13 +66,12 @@ app.UseStaticFiles(new StaticFileOptions
 
 app.UseCors("AllowAll");
 
-
-app.UseStaticFiles();
-
-app.UseHttpsRedirection();
+// HTTPS yönlendirmesini Railway'de devre dýþý býrak
+if (!app.Environment.IsProduction())
+{
+    app.UseHttpsRedirection();
+}
 
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();
