@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\newsapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -33,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\models\\entities\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\models\\entities\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17E27606-E1A8-494D-A14D-0ED3F38775F4}|NewsAPI\\NewsAPI.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\newsapi\\newsapi\\models\\dtos\\addnewsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,15 +86,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 437,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "NewsAPI\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\appsettings.Development.json",
+              "RelativeToolTip": "NewsAPI\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-20T08:29:28.849Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Dockerfile",
               "RelativeDocumentMoniker": "NewsAPI\\Dockerfile",
@@ -98,24 +115,23 @@
               "RelativeToolTip": "NewsAPI\\Dockerfile",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-01-18T11:55:24.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T11:55:24.256Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Program.cs",
               "RelativeDocumentMoniker": "NewsAPI\\Program.cs",
               "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Program.cs",
               "RelativeToolTip": "NewsAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAAAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAE8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T20:25:47.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "NewsAPI\\Properties\\launchSettings.json",
@@ -127,19 +143,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\appsettings.json",
               "RelativeDocumentMoniker": "NewsAPI\\appsettings.json",
               "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\appsettings.json",
               "RelativeToolTip": "NewsAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-29T22:39:29.632Z"
+              "WhenOpened": "2024-10-29T22:39:29.632Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "NewsAPI.csproj",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\NewsAPI.csproj",
               "RelativeDocumentMoniker": "NewsAPI\\NewsAPI.csproj",
@@ -151,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "NewsController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Controllers\\NewsController.cs",
               "RelativeDocumentMoniker": "NewsAPI\\Controllers\\NewsController.cs",
@@ -163,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AddNewsDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\DTOs\\AddNewsDto.cs",
               "RelativeDocumentMoniker": "NewsAPI\\Models\\DTOs\\AddNewsDto.cs",
@@ -175,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "NewsAPI\\WeatherForecast.cs",
@@ -187,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "News.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\Entities\\News.cs",
               "RelativeDocumentMoniker": "NewsAPI\\Models\\Entities\\News.cs",
@@ -199,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "NewsAPI\\Models\\Entities\\Category.cs",
@@ -211,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "NewsDetailDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\DTOs\\NewsDetailDto.cs",
               "RelativeDocumentMoniker": "NewsAPI\\Models\\DTOs\\NewsDetailDto.cs",
@@ -223,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "NewsSummaryDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\DTOs\\NewsSummaryDto.cs",
               "RelativeDocumentMoniker": "NewsAPI\\Models\\DTOs\\NewsSummaryDto.cs",
@@ -235,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "NewsImage.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\Entities\\NewsImage.cs",
               "RelativeDocumentMoniker": "NewsAPI\\Models\\Entities\\NewsImage.cs",
@@ -247,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "NewsAPI\\Controllers\\CategoriesController.cs",
@@ -259,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AddCategoryDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Models\\DTOs\\AddCategoryDto.cs",
               "RelativeDocumentMoniker": "NewsAPI\\Models\\DTOs\\AddCategoryDto.cs",
@@ -271,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "NewsAPI\\Data\\AppDbContext.cs",
@@ -283,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "20241102112443_migration2.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Migrations\\20241102112443_migration2.cs",
               "RelativeDocumentMoniker": "NewsAPI\\Migrations\\20241102112443_migration2.cs",
@@ -295,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "20241029225548_initial migration.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\NewsAPI\\NewsAPI\\Migrations\\20241029225548_initial migration.cs",
               "RelativeDocumentMoniker": "NewsAPI\\Migrations\\20241029225548_initial migration.cs",
